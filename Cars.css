@@ -1,0 +1,46 @@
+.footer{
+    font-family: monospace;
+    font-size: 30px;
+    border: black;
+    color: white;
+    background-color: black;
+    border-width: 20px;
+    border-style: dotted;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: gray;
+}
+.footer1{
+    font-family: monospace;
+    font-size: 15px;
+    border: black;
+    color: white;
+    background-color: black;
+    border-width: 10px;
+    border-style: dotted;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }

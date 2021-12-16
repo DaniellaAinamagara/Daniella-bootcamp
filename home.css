@@ -1,0 +1,156 @@
+body {
+    background: radial-gradient(827px at 47.3% 48%, rgb(255, 255, 255) 0%, rgb(138, 192, 216) 90%);
+}
+.h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 500%;
+    background-color: white;
+    opacity: 1.0;
+}
+
+.div1 {
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    font-size: 150%;
+    background-color: transparent;
+    opacity: 0.8; 
+    margin-left: 05%;
+    margin-right: 05%; 
+}
+.div2 {
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    font-size: 150%;
+    background-color: transparent;
+    opacity: 0.8;
+    margin-left: 05%;
+    margin-right: 05%; 
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: gray;
+}
+.dropdown{
+    display: inline-block;
+position: relative;
+}
+.drop1{
+    display: none;
+    position: absolute;
+    min-width: 80%;
+}
+.drop1 a{
+    text-align:center;
+    color: black;
+    text-decoration: none;
+    padding: 12px 16px;
+}
+li a, .drop{
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+
+}
+li a:hover, .dropdown:hover .drop{
+    background-color: whitesmoke;
+}
+.drop1 a:hover{
+    background-color: turquoise;
+}
+.dropdown:hover .drop1{
+    display: block;
+}
+.footer{
+    font-family: monospace;
+    font-size: 30px;
+    border: black;
+    color: white;
+    background-color: black;
+    border-width: 20px;
+    border-style: dotted;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+.slider {
+    width: 1500px;
+    height: 800px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .image-container {
+    width: 1500px;
+    background-color: pink;
+    height: 800px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+  }
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -500px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -1000px;
+  }
+  .buttons {
+    position: relative;
+    top: -40px;
+  }
+  .buttons a {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 70px;
+    background-color: lightgreen;
+  }
+  .footer1{
+    font-family: monospace;
+    font-size: 15px;
+    border: black;
+    color: white;
+    background-color: black;
+    border-width: 10px;
+    border-style: dotted;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
