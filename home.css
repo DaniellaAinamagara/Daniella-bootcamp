@@ -95,7 +95,7 @@ li a:hover, .dropdown:hover .drop{
     text-align: center;
 }
 .slider {
-    width: 1500px;
+    width: 1200px;
     height: 800px;
     background-color: yellow;
     margin-left: auto;
@@ -105,15 +105,15 @@ li a:hover, .dropdown:hover .drop{
     overflow: hidden;
   }
   .image-container {
-    width: 1500px;
+    width: 1200px;
     background-color: pink;
     height: 800px;
     clear: both;
     position: relative;
-    -webkit-transition: left 2s;
-    -moz-transition: left 2s;
-    -o-transition: left 2s;
-    transition: left 2s;
+    -webkit-transition: left 3s;
+    -moz-transition: left 3s;
+    -o-transition: left 3s;
+    transition: left 3s;
   }
   .slide {
     float: left;
